@@ -48,5 +48,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sorting.DAL\Sorting.DAL.csproj">
+      <Project>{C85D852E-2CAC-4610-AA5D-8FAAF5E20812}</Project>
+      <Name>Sorting.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sorting.Services\Sorting.Services.csproj">
+      <Project>{BE200838-31C9-476A-98B9-F39A40131C12}</Project>
+      <Name>Sorting.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
